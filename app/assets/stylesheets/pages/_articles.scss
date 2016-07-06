@@ -22,9 +22,19 @@
   padding: 50px;
   margin-top: 100px;
   border-radius: 7px;
-  border: 1px solid #e9edf0;
+  border: 2px solid #e9edf0;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 em{
   margin-top: 20px;
+}
+
+.article-signature{
+margin-top: 40px;
+}
+
+.article-signature > p {
+  padding-top: -15px;
 }
