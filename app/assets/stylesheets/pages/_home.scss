@@ -140,5 +140,9 @@
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
     border-radius: 1px;
+}
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
