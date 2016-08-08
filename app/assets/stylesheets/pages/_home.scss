@@ -112,10 +112,9 @@
 
 #map {
         display: flex;
-        height: 30vh;
+        height: 50vh;
         width: 100%;
         background-size: cover !important;
-        border: 1px solid #EDEFED;
       }
 
 .cta{
@@ -145,4 +144,20 @@
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
+   width: 100%;
+}
+
+.contact {
+  background-color: #767575;
+  height: 50vh;
+  width: 100%;
+}
+
+.contact p {
+  color:white;
+}
+
+.contact-padding{
+  padding-right: 0px;
+  padding-left: 0px;
 }
