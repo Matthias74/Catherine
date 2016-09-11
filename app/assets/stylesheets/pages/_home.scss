@@ -45,7 +45,7 @@
     width: 100%;
     height: auto;
     padding: 100px 0;
-    background: #f7f7f7;
+    background-color: rgba(118, 117, 117, 0.02);
 }
 
 .features .row{
@@ -76,20 +76,19 @@
 }
 
 .feature h3{
-    margin-bottom: 20px;
-    color: #767575;
-    font-family: 'opensans', sans-serif;
+    margin-bottom: 50px;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
 
 }
 
 .feature p{
     margin-bottom: 20px;
-    color: #9e9e9e;
-    font-family: 'opensans', sans-serif;
-    font-size: 15px;
+    color: #515052;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     line-height: 22px;
 
 }
@@ -114,8 +113,23 @@
 
 .testimonials {
   width: 100%;
-  height: 250px;
   padding: 100px 0;
+}
+
+.testimonials h3{
+  margin-bottom: 50px;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.testimonials p {
+   margin-bottom: 20px;
+    color: #515052;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 #map {
@@ -125,29 +139,6 @@
         background-size: cover !important;
       }
 
-.cta{
-    display: block;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.cta a.cta_btn{
-    display: inline-block;
-    padding: 20px 60px;
-    background-color: #65bf95;
-    color: #fff;
-    font-family: "lato_regular", arial;
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: 60px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-
-    -moz-border-radius: 1px;
-    -webkit-border-radius: 1px;
-    border-radius: 1px;
-}
 
 .nopadding {
    padding: 0 !important;
@@ -156,13 +147,18 @@
 }
 
 .contact {
-  background-color: #767575;
+  background-color: rgba(118, 117, 117, 0.02);
   height: 50vh;
   width: 100%;
 }
 
+.contact h3{
+
+}
+
 .contact p {
-  color:white;
+    color: #515052;
+    padding-top: 30px;
 }
 
 .contact-padding{
