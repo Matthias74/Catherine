@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'pages#home'
+  get 'home' => 'pages#home'
   get 'articles' => 'pages#articles'
   get 'videos' => 'pages#videos'
   get 'contact' => 'pages#contact'
