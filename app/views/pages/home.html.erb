@@ -88,12 +88,13 @@
   <div class="row">
     <div class="col-xs-12 col-sm-6 contact-padding">
       <div class="contact" id="me_contacter">
-      <p class="text-center">Contact</p>
+        <p class="text-center" id=contact-title>CONTACT</p>
         <div class="container">
-          <p>Adresse</p>
-          <p>telephone</p>
-          <p>horaires</p>
-        </div>
+            <p>Adresse: 24, route de Carrières
+            78400 Chatou</p>
+            <p>Téléphone: 0671903300</p>
+            <p>Email: leboullengercatherine@gmail.com</p>
+          </div>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 contact-padding">
@@ -112,7 +113,7 @@
                 var handler = Gmaps.build('Google');
                 handler.buildMap({ internal: { id: 'map' } }, function(){
                   markers = handler.addMarkers([
-                      { "lat": 48.8529369, "lng": 2.364178  }
+                      { "lat": 48.893707, "lng": 2.157568  }
                     ]);
                   handler.bounds.extendWith(markers);
                   handler.fitMapToBounds();
