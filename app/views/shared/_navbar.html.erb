@@ -1,11 +1,11 @@
 <div class="navbar-wagon navbar-wagon-fixed">
   <!-- Logo -->
-  <a href="" class="navbar-wagon-item navbar-wagon-button btn">Catherine Leboullanger</a>
+  <%= link_to "Catherine Leboullanger", root_path, class: "navbar-wagon-item navbar-wagon-button btn" %>
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <a href="articles" class="navbar-wagon-item navbar-wagon-button btn">Articles</a>
     <a href="videos" class="navbar-wagon-item navbar-wagon-button btn">Vidéos</a>
-    <a href="videos" class="navbar-wagon-item navbar-wagon-button btn">Me contacter</a>
+    <a href="/#me_contacter" class="navbar-wagon-item navbar-wagon-button btn">Me contacter</a>
   </div>
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
@@ -14,6 +14,7 @@
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
         <li><a href="#">Articles</a></li>
         <li><a href="#">Vidéos</a></li>
+        <li><a href="#">Me contacter</a></li>
       </ul>
     </div>
   </div>

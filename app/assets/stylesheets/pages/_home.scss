@@ -129,7 +129,7 @@
     color: #515052;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 35px;
 }
 
 #map {
@@ -143,7 +143,7 @@
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
-   width: 100%;
+   width: 100% !important;
 }
 
 .contact {
@@ -152,13 +152,19 @@
   width: 100%;
 }
 
-.contact h3{
-
+#contact-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding-bottom: 27px;
 }
 
 .contact p {
-    color: #515052;
+    color: #51505;
     padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .contact-padding{
