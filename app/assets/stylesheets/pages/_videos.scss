@@ -1,7 +1,7 @@
 .article-banner{
  color: black;
   text-align: center;
-
+  min-height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-color:#FCFCFC;
   align-items: center;
@@ -24,4 +24,8 @@
   border: 2px solid #e9edf0;
   margin-bottom: 30px;
 
+}
+
+.video-p {
+  font-family: 'Raleway', sans-serif;
 }
