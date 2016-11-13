@@ -93,38 +93,42 @@
       <div class="contact" id="me_contacter">
         <p class="text-center" id=contact-title>CONTACT</p>
         <div class="container">
-            <p><strong>Adresse:</strong> 24, route de Carrières
-            78400 Chatou</p>
-            <p><strong>Téléphone:</strong> 0671903300</p>
-            <p><strong>Email:</strong> leboullengercatherine@gmail.com</p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <p><strong>Adresse:</strong> 24, route de Carrières
+              78400 Chatou</p>
+              <p><strong>Téléphone:</strong> 0671903300</p>
+              <p><strong>Email:</strong> leboullengercatherine@gmail.com</p>
+            </div>
           </div>
+        </div>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 contact-padding">
       <div id="map"></div>
 
-      <script type="text/javascript">
+        <script type="text/javascript">
 
-var map;
-function initMap() {
-  var myLatLng = {lat: 48.893707, lng: 2.157568};
+          var map;
+          function initMap() {
+            var myLatLng = {lat: 48.893707, lng: 2.157568};
 
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: myLatLng,
-    zoom: 12
-  });
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: myLatLng,
+              zoom: 12
+            });
 
-  var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'Mon cabinet'
-  });
-}
+            var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              title: 'Mon cabinet'
+            });
+          }
 
-    </script>
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDomKVjemIo4UvWmOw590WpDGqIh1j4PXs&callback=initMap">
-    </script>
+              </script>
+              <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDomKVjemIo4UvWmOw590WpDGqIh1j4PXs&callback=initMap">
+        </script>
     </div>
   </div>
 </div>
