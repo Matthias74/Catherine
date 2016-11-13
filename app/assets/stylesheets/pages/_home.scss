@@ -39,13 +39,20 @@
 /*  Services/features  */
 /*  General CSS*/
 
+.icon-center{
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
 
+.list-bullet-circle{
+  list-style-type: circle;
+}
 
 .features{
     width: 100%;
     height: auto;
     padding: 100px 0;
-    background-color: rgba(118, 117, 117, 0.02);
+    background-color: #FAF5F5;
 }
 
 .features .row{
@@ -147,7 +154,7 @@
 }
 
 .contact {
-  background-color: rgba(118, 117, 117, 0.02);
+  background-color: #FAF5F5;
   height: 50vh;
   width: 100%;
 }
