@@ -3,6 +3,12 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 /*  Billboard  */
+body{
+     width:100%;
+     height:100%;
+     overflow-x: hidden;
+ }
+
 .billboard{
     width: 100%;
     height: 580px;
@@ -167,7 +173,7 @@
 
 .contact p {
     color: #51505;
-    padding-top: 30px;
+    padding-top: 10px;
     font-family: 'Raleway', sans-serif;
     padding-left: 40px;
     font-size: 18px;
@@ -177,4 +183,8 @@
 .contact-padding{
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.contact-padding > p{
+  margin-top: 30px;
 }
