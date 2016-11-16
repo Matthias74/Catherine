@@ -3,7 +3,7 @@
   text-align: center;
   min-height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-color:#FCFCFC;
+  background-color:#FAF5F5;
   align-items: center;
   justify-content: center;
 }
@@ -11,8 +11,9 @@
 .banner-h1{
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 60px;
+  letter-spacing: 4px;
 }
 
 .article-p{
@@ -26,7 +27,7 @@
 
 .article-content{
   background: white;
-  padding: 30px;
+  padding: 20px;
   margin-top: 100px;
   border-radius: 7px;
   border: 2px solid #e9edf0;
