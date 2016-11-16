@@ -46,7 +46,9 @@ body{
 /*  General CSS*/
 
 .icon-center{
-  margin-left: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10px;
 }
 
@@ -92,7 +94,7 @@ body{
     margin-bottom: 50px;
     color: #333333;
     font-family: 'Raleway', sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     letter-spacing: 4px;
 
 }
@@ -163,12 +165,14 @@ body{
   background-color: #FAF5F5;
   height: 50vh;
   width: 100%;
+  padding-top: 22px;
 }
 
 #contact-title {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     padding-bottom: 27px;
+    letter-spacing: 4px;
 }
 
 .contact p {
