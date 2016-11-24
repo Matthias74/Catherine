@@ -61,6 +61,8 @@ body{
     height: auto;
     padding: 100px 0;
     background-color: #FAF5F5;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .features .row{
@@ -128,7 +130,10 @@ body{
 
 .testimonials {
   width: 100%;
-  padding: 100px 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .testimonials h3{
