@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'articles/article1'
+
+  get 'articles/article2'
+
+  get 'articles/article3'
+
+  get 'articles/article4'
+
+  get 'articles/article5'
+
   root'pages#home'
   get 'articles' => 'pages#articles'
   get 'videos' => 'pages#videos'
